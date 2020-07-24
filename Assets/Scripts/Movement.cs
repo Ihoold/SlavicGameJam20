@@ -1,18 +1,31 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-public class PlayerMovement : MonoBehaviour
+public class Movement : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public Camera cam;
+    public float moveSpeed = 10;
+    Rigidbody2D body => GetComponent<Rigidbody2D>();
+    
+    Vector2 movement;
+    Vector2 aim;
 
-    // Update is called once per frame
     void Update()
     {
-        
+        // Movement
+        movement.x = Input.GetAxis("Horizontal");
+        movement.y = Input.GetAxis("Vertical");
+
+        // Aiming
+        aim = cam.ScreenToWorldPoint(Input.mousePosition);
+    }
+
+    void FixedUpdate() 
+    {
+        // Movement
+        body.MovePosition(body.position + movement * moveSpeed * Time.fixedDeltaTime);
+
+        // Aiming
+        Vector2 look = aim - body.position;
+        body.rotation = Mathf.Atan2(look.y, look.x) * Mathf.Rad2Deg;
     }
 }
