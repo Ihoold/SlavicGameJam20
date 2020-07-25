@@ -15,7 +15,6 @@ public class Options : MonoBehaviour
     }
 
     public void Back() {
-        Debug.Log("LoadScene");
         SceneManager.LoadScene("Menu");
     }
 

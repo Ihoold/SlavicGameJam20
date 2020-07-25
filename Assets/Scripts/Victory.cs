@@ -13,6 +13,7 @@ public class Victory : MonoBehaviour
     }
 
     void NextScene() {
-        SceneManager.LoadScene((SceneManager.GetActiveScene().buildIndex + 1) % SceneManager.sceneCount);
+        Debug.Log(SceneManager.GetActiveScene().buildIndex + " " + SceneManager.sceneCountInBuildSettings);
+        SceneManager.LoadScene((SceneManager.GetActiveScene().buildIndex + 1) % SceneManager.sceneCountInBuildSettings);
     }
 }
