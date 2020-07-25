@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 6596270449485318540}
   - component: {fileID: 6596270449485318547}
   m_Layer: 0
-  m_Name: Pistol
+  m_Name: EnemyAutomaticGun
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -43,7 +43,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 557c6956cc36ba34b9cd70914406143c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bulletSpeed: 1
-  shootingCooldown: 1
-  bulletPrefab: {fileID: 1666859691091033942, guid: 8cfba8a02d669b046ac10baa051e37f6,
+  bulletSpeed: 1.5
+  shootingCooldown: 0.4
+  bulletPrefab: {fileID: 4603451288620679579, guid: e22c590e520febf4b84b9b5db9c3e4a8,
     type: 3}
