@@ -32,5 +32,7 @@ public class BulletBehaviour : MonoBehaviour
         {
             body.velocity = body.velocity.normalized * maxSpeed;
         }
+        // Rotate towards velocity
+        body.rotation = Mathf.Atan2(body.velocity.y, body.velocity.x) * Mathf.Rad2Deg;
     }
 }

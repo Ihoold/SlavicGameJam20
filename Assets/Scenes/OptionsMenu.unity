@@ -463,7 +463,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95122fd98358d5046bfd227eedd3f67f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audio: {fileID: 24100000, guid: 94e421a0cca1b1442aa4a9a3afea07d3, type: 2}
+  aduioMixer: {fileID: 24100000, guid: 94e421a0cca1b1442aa4a9a3afea07d3, type: 2}
   slider: {fileID: 274863734}
 --- !u!4 &388708807
 Transform:

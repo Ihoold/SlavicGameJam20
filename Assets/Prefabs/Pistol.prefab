@@ -43,7 +43,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 557c6956cc36ba34b9cd70914406143c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bulletSpeed: 1
+  bulletSpeed: 1.1
   shootingCooldown: 1
   bulletPrefab: {fileID: 1666859691091033942, guid: 8cfba8a02d669b046ac10baa051e37f6,
     type: 3}
