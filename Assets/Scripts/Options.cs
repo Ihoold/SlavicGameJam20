@@ -5,12 +5,12 @@ using UnityEngine.UI;
 
 public class Options : MonoBehaviour
 {
-    public AudioMixer audio;
+    public AudioMixer aduioMixer;
     public Slider slider; 
 
     public void Start() {
         float vol;
-        audio.GetFloat("Volume", out vol);
+        aduioMixer.GetFloat("Volume", out vol);
         slider.value = vol;
     }
 
@@ -19,7 +19,7 @@ public class Options : MonoBehaviour
     }
 
     public void SetVolume(float volume) {
-        audio.SetFloat("Volume", volume);
+        aduioMixer.SetFloat("Volume", volume);
     }
 
     void Update() {
