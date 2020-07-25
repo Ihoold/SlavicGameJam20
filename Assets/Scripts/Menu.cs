@@ -5,7 +5,7 @@ public class Menu : MonoBehaviour
 {
     
     public void Play() {
-        SceneManager.LoadScene("PrototypeScene");
+        SceneManager.LoadScene("Level1");
     }
 
     public void Options() {
