@@ -4,8 +4,8 @@ public class Shooting : MonoBehaviour
 {
     public Transform gun;
     public GameObject bulletPrefab;
-    public float bulletSpeed = 20;
-    public float cooldown = 2f;
+    public float bulletSpeed = 1.5f;
+    public float cooldown = 1f;
 
     float afterCooldown = 0;
 
