@@ -6,9 +6,13 @@ public class Victory : MonoBehaviour
 {
     void OnTriggerEnter2D(Collider2D other) {
         if (other.tag == "Player") {
-            // TODO: play some cheering sound effect
-            // TODO: it should go to Menu scene or next level, not reset the current one
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            var soundEffect = GetComponent<AudioSource>();
+            soundEffect.Play();
+            Invoke("NextScene", soundEffect.clip.length);
         }
+    }
+
+    void NextScene() {
+        SceneManager.LoadScene((SceneManager.GetActiveScene().buildIndex + 1) % SceneManager.sceneCount);
     }
 }
