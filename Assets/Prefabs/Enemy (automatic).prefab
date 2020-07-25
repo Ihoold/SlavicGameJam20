@@ -146,7 +146,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a09432e1e0c58ef4e87ffe3c3e834efb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
   shootingRange: 15
   moveSpeed: 3
   patrol: []
@@ -222,7 +221,7 @@ PrefabInstance:
     - target: {fileID: 6596270449485318540, guid: 9830309eb5cca6a4d835243d10f95b75,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.294
+      value: 0.397
       objectReference: {fileID: 0}
     - target: {fileID: 6596270449485318540, guid: 9830309eb5cca6a4d835243d10f95b75,
         type: 3}
