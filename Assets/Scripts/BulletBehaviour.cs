@@ -5,18 +5,17 @@ public class BulletBehaviour : MonoBehaviour
     public float attraction = 50f;
     public float maxSpeed = 15f;
     public string gravityTag;
+    public GameObject burstEffect;
     Rigidbody2D body => GetComponent<Rigidbody2D>();
 
 
     void OnCollisionEnter2D(Collision2D col) {
-        // Special effects, damaging enemies
-        if (col.gameObject.tag == "Enemy") {
-            Debug.Log("Hit!");
-        }
+        // Explosion
+        GameObject explosion = Instantiate(burstEffect, transform.position, transform.rotation);
+        ParticleSystem parts = explosion.GetComponentInChildren<ParticleSystem>();
 
-        Debug.Log(col.collider.tag);
-        
-        Destroy(this.gameObject);
+        // Object cleanup
+        Destroy(gameObject);
     }
 
     void OnTriggerStay2D(Collider2D other) {

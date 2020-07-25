@@ -15,11 +15,8 @@ public class EnemyHealth : MonoBehaviour
             health = numOfHearts;
         }
 
-
         DealDamage();
-
         DeathTrigger();
-
     }
 
     public void DealDamage()

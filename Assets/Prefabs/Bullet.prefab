@@ -120,6 +120,8 @@ MonoBehaviour:
   attraction: 30
   maxSpeed: 15
   gravityTag: Enemy Gravity
+  burstEffect: {fileID: 6038714873606835081, guid: 63d979d176516c54885da0702323338c,
+    type: 3}
 --- !u!70 &581932338808736226
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
