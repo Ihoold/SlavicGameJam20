@@ -3,6 +3,7 @@
 public class BulletBehaviour : MonoBehaviour
 {
     public float attraction = 50f;
+    public float maxSpeed = 15f;
     Rigidbody2D body => GetComponent<Rigidbody2D>();
 
 
@@ -15,12 +16,18 @@ public class BulletBehaviour : MonoBehaviour
         Destroy(this.gameObject);
     }
 
-
-
     void OnTriggerStay2D(Collider2D other) {
         if (other.tag == "Enemy Gravity") {
             Vector2 direction = other.GetComponentInParent<Rigidbody2D>().position - body.position;
             body.AddForce(direction * attraction / (direction.magnitude * direction.magnitude));
         } 
+    }
+
+    void FixedUpdate ()
+    {
+        if(body.velocity.magnitude > maxSpeed)
+        {
+            body.velocity = body.velocity.normalized * maxSpeed;
+        }
     }
 }
