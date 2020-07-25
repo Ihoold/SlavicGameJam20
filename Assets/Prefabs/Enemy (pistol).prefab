@@ -147,6 +147,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 9134239440790297880, guid: 8e551628deb5776429bede1afef88dbc, type: 3}
   shootingRange: 15
+  moveSpeed: 3
+  patrol: []
 --- !u!1 &7211608098956613102
 GameObject:
   m_ObjectHideFlags: 0
@@ -204,12 +206,12 @@ PrefabInstance:
     - target: {fileID: 5145855170154860536, guid: f24bb570cbc514c4988a99d8ad38102a,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.287
+      value: 0.29799986
       objectReference: {fileID: 0}
     - target: {fileID: 5145855170154860536, guid: f24bb570cbc514c4988a99d8ad38102a,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.096
+      value: -0.09600001
       objectReference: {fileID: 0}
     - target: {fileID: 5145855170154860536, guid: f24bb570cbc514c4988a99d8ad38102a,
         type: 3}
@@ -229,12 +231,12 @@ PrefabInstance:
     - target: {fileID: 5145855170154860536, guid: f24bb570cbc514c4988a99d8ad38102a,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5145855170154860536, guid: f24bb570cbc514c4988a99d8ad38102a,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5145855170154860536, guid: f24bb570cbc514c4988a99d8ad38102a,
         type: 3}
@@ -254,7 +256,7 @@ PrefabInstance:
     - target: {fileID: 5145855170154860536, guid: f24bb570cbc514c4988a99d8ad38102a,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 180
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5145855170154860537, guid: f24bb570cbc514c4988a99d8ad38102a,
         type: 3}

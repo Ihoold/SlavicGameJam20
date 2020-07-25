@@ -14,6 +14,8 @@ public class BulletBehaviour : MonoBehaviour
             Debug.Log("Hit!");
         }
 
+        Debug.Log(col.collider.tag);
+        
         Destroy(this.gameObject);
     }
 
