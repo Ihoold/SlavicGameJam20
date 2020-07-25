@@ -416,13 +416,24 @@ MonoBehaviour:
   m_FillRect: {fileID: 1448637668}
   m_HandleRect: {fileID: 71368712}
   m_Direction: 0
-  m_MinValue: 0
-  m_MaxValue: 1
+  m_MinValue: -80
+  m_MaxValue: 0
   m_WholeNumbers: 0
-  m_Value: 1
+  m_Value: 0
   m_OnValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 388708806}
+        m_MethodName: SetVolume
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 1
 --- !u!1 &388708805
 GameObject:
   m_ObjectHideFlags: 0
@@ -452,6 +463,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95122fd98358d5046bfd227eedd3f67f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audio: {fileID: 24100000, guid: 94e421a0cca1b1442aa4a9a3afea07d3, type: 2}
+  slider: {fileID: 274863734}
 --- !u!4 &388708807
 Transform:
   m_ObjectHideFlags: 0
