@@ -18,7 +18,7 @@ public class BulletBehaviour : MonoBehaviour
 
 
     void OnTriggerStay2D(Collider2D other) {
-        if (other.tag == "EnemyGravity") {
+        if (other.tag == "Enemy Gravity") {
             Vector2 direction = other.GetComponentInParent<Rigidbody2D>().position - body.position;
             body.AddForce(direction * attraction / (direction.magnitude * direction.magnitude));
         } 
