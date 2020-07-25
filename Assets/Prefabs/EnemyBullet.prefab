@@ -10,12 +10,17 @@ PrefabInstance:
     - target: {fileID: 1666859691091033942, guid: 8cfba8a02d669b046ac10baa051e37f6,
         type: 3}
       propertyPath: m_Name
-      value: Bullet Variant
+      value: EnemyBullet
       objectReference: {fileID: 0}
     - target: {fileID: 1666859691091033942, guid: 8cfba8a02d669b046ac10baa051e37f6,
         type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1666859691091033942, guid: 8cfba8a02d669b046ac10baa051e37f6,
+        type: 3}
+      propertyPath: m_TagString
+      value: EnemyBullet
       objectReference: {fileID: 0}
     - target: {fileID: 1926342256857872421, guid: 8cfba8a02d669b046ac10baa051e37f6,
         type: 3}

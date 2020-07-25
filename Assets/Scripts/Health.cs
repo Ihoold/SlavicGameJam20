@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class Health : MonoBehaviour
@@ -11,6 +12,12 @@ public class Health : MonoBehaviour
     public Image[] hearts;
     public Sprite fullHeart;
     public Sprite emptyHeart;
+
+    void OnRestartClick()
+    {
+        Scene scene = SceneManager.GetActiveScene();
+        SceneManager.LoadScene(scene.name);
+    }
 
     void Update()
     {
@@ -42,6 +49,8 @@ public class Health : MonoBehaviour
 
         DealDamage();
 
+        DeathTrigger();
+
     }
 
     public void DealDamage()
@@ -49,6 +58,28 @@ public class Health : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.P))
         {
             health -= 1;
+        }
+    }
+
+    void OnCollisionEnter2D(Collision2D col)
+    {
+        // Special effects, damaging enemies
+        if (col.gameObject.tag == "EnemyBullet")
+        {
+            health -= 1;
+            Debug.Log("Hit!");
+        }
+    }
+
+   
+
+    public void DeathTrigger()
+    {
+
+        if (health <= 0)
+        {
+            Destroy(gameObject);
+            OnRestartClick();
         }
     }
 
