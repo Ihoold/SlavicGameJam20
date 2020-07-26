@@ -20,8 +20,7 @@ public class Health : MonoBehaviour
 
     void OnRestartClick()
     {
-        Scene scene = SceneManager.GetActiveScene();
-        SceneManager.LoadScene(scene.name);
+        SceneManager.LoadScene("DeathScene");
     }
 
     void Update()
