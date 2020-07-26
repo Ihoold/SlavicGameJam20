@@ -7,6 +7,7 @@ public class Victory : MonoBehaviour
     void OnTriggerEnter2D(Collider2D other) {
         if (other.tag == "Player") {
             var soundEffect = GetComponent<AudioSource>();
+            soundEffect.volume = PlayerPrefs.GetFloat("Volume", 1f);
             soundEffect.Play();
             Invoke("NextScene", soundEffect.clip.length);
         }

@@ -13,7 +13,6 @@ public class FirstAid : MonoBehaviour
                 SoundManagerScript.PlaySound("FirstAid");
                 health.StartHealAnimation();
                 Destroy(gameObject);
-                // TODO: maybe flash the player green
             }
         }
     }

@@ -6,6 +6,7 @@ public class EnemyBehaviour : MonoBehaviour
     public float moveSpeed = 15f;
     public Transform[] patrol;
     public float actionCooldown = 1f;
+    public float shotCooldown = 0.1f;
 
     GameObject player => GameObject.FindWithTag("Player");
     Gun gun => GetComponentInChildren<Gun>();
@@ -14,17 +15,19 @@ public class EnemyBehaviour : MonoBehaviour
     int patrolStep = 0;
     float nextMove = 0;
 
+    // Wait at least one frame before shooting
+    public float playerNotSpotted = 0;
+
     void FixedUpdate()
     {
         // Shooting
         var rayDirection = player.transform.position - transform.position;
         var hit = Physics2D.Raycast(transform.position, rayDirection, shootingRange, LayerMask.GetMask("Level", "Player"));
         if (hit.collider != null && hit.collider.tag == "Player") {
-
             // We can see player - look toward him
             body.rotation = Mathf.Atan2(rayDirection.y, rayDirection.x) * Mathf.Rad2Deg;
-            // Shoot if not on cooldown
-            if (gun.CanShoot()) {
+            // Shoot if not on cooldown and if we have seen player for at least shotCooldown seconds
+            if (gun.CanShoot() && (playerNotSpotted <= Time.time - shotCooldown)) {
                 SoundManagerScript.PlaySound("EnemyShoot");
                 gun.Shoot();
             }
@@ -34,6 +37,7 @@ public class EnemyBehaviour : MonoBehaviour
             return;
         }
 
+        playerNotSpotted = Time.time;
         // Moving
         if (Time.time > nextMove && patrol.Length > 0) {
             if (this.transform.position == patrol[patrolStep].position) {

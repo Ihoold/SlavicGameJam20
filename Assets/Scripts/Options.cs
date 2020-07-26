@@ -9,9 +9,8 @@ public class Options : MonoBehaviour
     public Slider slider; 
 
     public void Start() {
-        float vol;
-        aduioMixer.GetFloat("Volume", out vol);
-        slider.value = vol;
+        slider.value = PlayerPrefs.GetFloat("Volume", 1f);
+        aduioMixer.SetFloat("Volume", Mathf.Log10(slider.value) * 20);
     }
 
     public void Back() {
@@ -19,7 +18,8 @@ public class Options : MonoBehaviour
     }
 
     public void SetVolume(float volume) {
-        aduioMixer.SetFloat("Volume", volume);
+        PlayerPrefs.SetFloat("Volume", volume);
+        aduioMixer.SetFloat("Volume", Mathf.Log10(volume) * 20);
     }
 
     void Update() {
