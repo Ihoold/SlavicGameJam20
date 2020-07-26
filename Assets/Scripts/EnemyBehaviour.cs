@@ -27,6 +27,7 @@ public class EnemyBehaviour : MonoBehaviour
             // Shoot if not on cooldown
             if (gun.CanShoot()) {
                             Debug.Log("shooting");
+                SoundManagerScript.PlaySound("EnemyShoot");
 
                 gun.Shoot();
             }
