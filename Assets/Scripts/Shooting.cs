@@ -7,6 +7,7 @@ public class Shooting : MonoBehaviour
     void Update()
     {
         if (Input.GetButtonDown("Fire1") && gun.CanShoot()) {
+            SoundManagerScript.PlaySound("Shoot");
             gun.Shoot();
         }
     }
