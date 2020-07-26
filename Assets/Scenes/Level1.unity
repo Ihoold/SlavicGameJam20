@@ -185,7 +185,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 82
+  m_RootOrder: 96
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &4034598
 GameObject:
@@ -355,6 +355,213 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9bfbab5078bf5bb44afc9c82f7a1417d, type: 3}
+--- !u!1001 &24117892
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4496707702055284896, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_Name
+      value: First aid kit (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 24.962994
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.3979974
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 91a27b22eda3b194fac294107251a93c, type: 3}
+--- !u!1001 &25917521
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4496707702055284896, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_Name
+      value: First aid kit (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -17.951672
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 66.942764
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 91a27b22eda3b194fac294107251a93c, type: 3}
+--- !u!1001 &29008518
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4496707702055284896, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_Name
+      value: First aid kit (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -8.582975
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 56.138573
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 91a27b22eda3b194fac294107251a93c, type: 3}
 --- !u!1 &34397144
 GameObject:
   m_ObjectHideFlags: 0
@@ -587,7 +794,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 83
+  m_RootOrder: 97
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &60270033
 PrefabInstance:
@@ -898,7 +1105,7 @@ Transform:
   - {fileID: 1789610819}
   - {fileID: 563782447}
   m_Father: {fileID: 0}
-  m_RootOrder: 79
+  m_RootOrder: 93
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &85294571
 GameObject:
@@ -1234,6 +1441,75 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 54e68c6d6ca8cbb45b3e73c81d437cdc, type: 3}
+--- !u!1001 &168617170
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4496707702055284896, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_Name
+      value: First aid kit (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -6.87
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 91a27b22eda3b194fac294107251a93c, type: 3}
 --- !u!1001 &169325347
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3001,6 +3277,75 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &525664644
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4496707702055284896, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_Name
+      value: First aid kit (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -10.1696205
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -23.873114
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 91a27b22eda3b194fac294107251a93c, type: 3}
 --- !u!1 &563782446
 GameObject:
   m_ObjectHideFlags: 0
@@ -4866,6 +5211,75 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9bfbab5078bf5bb44afc9c82f7a1417d, type: 3}
+--- !u!1001 &881916824
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4496707702055284896, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_Name
+      value: First aid kit (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.936815
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -24.024223
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 91a27b22eda3b194fac294107251a93c, type: 3}
 --- !u!1001 &888582792
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4935,6 +5349,75 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9bfbab5078bf5bb44afc9c82f7a1417d, type: 3}
+--- !u!1001 &914665622
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4496707702055284896, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_Name
+      value: First aid kit (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 10.381077
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 34.15233
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 91a27b22eda3b194fac294107251a93c, type: 3}
 --- !u!1 &915808365
 GameObject:
   m_ObjectHideFlags: 0
@@ -5823,6 +6306,75 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9bfbab5078bf5bb44afc9c82f7a1417d, type: 3}
+--- !u!1001 &1059061751
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4496707702055284896, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_Name
+      value: First aid kit (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -16.06
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -24.024223
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 91a27b22eda3b194fac294107251a93c, type: 3}
 --- !u!1 &1070488675
 GameObject:
   m_ObjectHideFlags: 0
@@ -6426,7 +6978,7 @@ RectTransform:
   - {fileID: 1290915631}
   - {fileID: 1753120105}
   m_Father: {fileID: 0}
-  m_RootOrder: 81
+  m_RootOrder: 95
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -17913,6 +18465,75 @@ PrefabInstance:
         type: 3}
       propertyPath: m_RootOrder
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 91a27b22eda3b194fac294107251a93c, type: 3}
+--- !u!1001 &1408937354
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4496707702055284896, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_Name
+      value: First aid kit (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -33.13802
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 56.214127
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
         type: 3}
@@ -49377,6 +49998,75 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 54e68c6d6ca8cbb45b3e73c81d437cdc, type: 3}
+--- !u!1001 &1900080642
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4496707702055284896, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_Name
+      value: First aid kit (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -12.058458
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 70.11603
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 91a27b22eda3b194fac294107251a93c, type: 3}
 --- !u!1 &1904076537
 GameObject:
   m_ObjectHideFlags: 0
@@ -49407,6 +50097,75 @@ Transform:
   m_Father: {fileID: 109213074}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1907618762
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4496707702055284896, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_Name
+      value: First aid kit (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4.2008443
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 37.930016
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 91a27b22eda3b194fac294107251a93c, type: 3}
 --- !u!1 &1919464313
 GameObject:
   m_ObjectHideFlags: 0
@@ -49639,6 +50398,144 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 54e68c6d6ca8cbb45b3e73c81d437cdc, type: 3}
+--- !u!1001 &1940540890
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4496707702055284896, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_Name
+      value: First aid kit (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 30.478436
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 16.54825
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 91a27b22eda3b194fac294107251a93c, type: 3}
+--- !u!1001 &1946809014
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4496707702055284896, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_Name
+      value: First aid kit (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 10.003308
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 67.24497
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 91a27b22eda3b194fac294107251a93c, type: 3}
 --- !u!1 &1948822633
 GameObject:
   m_ObjectHideFlags: 0
@@ -49735,6 +50632,75 @@ Transform:
   m_Father: {fileID: 82913148}
   m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1987235084
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4496707702055284896, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_Name
+      value: First aid kit (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.8434753
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 17.832668
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496707702055284909, guid: 91a27b22eda3b194fac294107251a93c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 91a27b22eda3b194fac294107251a93c, type: 3}
 --- !u!1 &1994816705
 GameObject:
   m_ObjectHideFlags: 0
@@ -49977,7 +50943,7 @@ Transform:
   m_Children:
   - {fileID: 420818475}
   m_Father: {fileID: 0}
-  m_RootOrder: 80
+  m_RootOrder: 94
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2046216446
 PrefabInstance:
