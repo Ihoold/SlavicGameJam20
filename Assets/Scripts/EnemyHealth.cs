@@ -43,7 +43,6 @@ public class EnemyHealth : MonoBehaviour
         if (col.gameObject.tag == "PlayerBullet")
         {
             DealDamage(1);
-            Debug.Log("Hit!");
         }
     }
 

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class SoundManagerScript : MonoBehaviour
 {
-  public static AudioClip shootSound, hitSound, enemyShoot, enemyAuto;
+  public static AudioClip shootSound, hitSound, enemyShoot, enemyAuto, firstAid;
 
     static AudioSource audioSource;
 
@@ -12,10 +12,10 @@ public class SoundManagerScript : MonoBehaviour
     void Start()
     {
         shootSound = Resources.Load<AudioClip>("Shoot");
-        Debug.Log(shootSound);
         // hitSound = Resources.Load<AudioClip> ("Hit");
         enemyShoot = Resources.Load<AudioClip>("EnemyShoot");
         enemyAuto = Resources.Load<AudioClip>("AutoGun");
+        firstAid = Resources.Load<AudioClip>("FirstAid");
 
         audioSource = GetComponent<AudioSource> ();
     }
@@ -43,6 +43,10 @@ public class SoundManagerScript : MonoBehaviour
 
             case "AutoGun":
                 audioSource.PlayOneShot(enemyAuto);
+                break;
+                
+            case "FirstAid":
+                audioSource.PlayOneShot(firstAid);
                 break;
         }
     }

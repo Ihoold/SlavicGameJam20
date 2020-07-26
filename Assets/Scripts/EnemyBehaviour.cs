@@ -20,15 +20,12 @@ public class EnemyBehaviour : MonoBehaviour
         var rayDirection = player.transform.position - transform.position;
         var hit = Physics2D.Raycast(transform.position, rayDirection, shootingRange, LayerMask.GetMask("Level", "Player"));
         if (hit.collider != null && hit.collider.tag == "Player") {
-            Debug.Log(body.transform);
 
             // We can see player - look toward him
             body.rotation = Mathf.Atan2(rayDirection.y, rayDirection.x) * Mathf.Rad2Deg;
             // Shoot if not on cooldown
             if (gun.CanShoot()) {
-                            Debug.Log("shooting");
                 SoundManagerScript.PlaySound("EnemyShoot");
-
                 gun.Shoot();
             }
             // Cooldown so we don't go from shooting to patroling constantly
