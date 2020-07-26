@@ -10,8 +10,14 @@ public class BulletBehaviour : MonoBehaviour
 
 
     void OnCollisionEnter2D(Collision2D col) {
+        if (col.otherCollider.tag == "EnemyBullet") {
+            if (col.collider.tag == "Enemy") {
+                Destroy(gameObject);
+                return;
+            }
+        }
+
         // Explosion
-        
         GameObject explosion = Instantiate(burstEffect, col.GetContact(0).point, transform.rotation);
         ParticleSystem parts = explosion.GetComponentInChildren<ParticleSystem>();
 

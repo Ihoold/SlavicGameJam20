@@ -150,6 +150,8 @@ MonoBehaviour:
   moveSpeed: 3
   patrol: []
   actionCooldown: 1
+  shotCooldown: 0.1
+  playerNotSpotted: 0
 --- !u!114 &6923883482139611072
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -164,6 +166,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 2
   numOfHearts: 2
+  flashingPeriod: 0.4
 --- !u!1 &7211608098956613102
 GameObject:
   m_ObjectHideFlags: 0
@@ -221,12 +224,12 @@ PrefabInstance:
     - target: {fileID: 6596270449485318540, guid: 9830309eb5cca6a4d835243d10f95b75,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.397
+      value: 0.455
       objectReference: {fileID: 0}
     - target: {fileID: 6596270449485318540, guid: 9830309eb5cca6a4d835243d10f95b75,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.094
+      value: -0.103
       objectReference: {fileID: 0}
     - target: {fileID: 6596270449485318540, guid: 9830309eb5cca6a4d835243d10f95b75,
         type: 3}
