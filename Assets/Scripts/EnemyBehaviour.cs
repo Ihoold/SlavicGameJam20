@@ -23,7 +23,7 @@ public class EnemyBehaviour : MonoBehaviour
         // Shooting
         var rayDirection = player.transform.position - transform.position;
         var hit = Physics2D.Raycast(transform.position, rayDirection, shootingRange, LayerMask.GetMask("Level", "Player"));
-        if (hit.collider != null && hit.collider.tag == "Player") {
+        if (hit.collider != null && hit.collider.tag == "Player" && (transform.position - hit.collider.gameObject.transform.position).magnitude <= shootingRange) {
             // We can see player - look toward him
             body.rotation = Mathf.Atan2(rayDirection.y, rayDirection.x) * Mathf.Rad2Deg;
             // Shoot if not on cooldown and if we have seen player for at least shotCooldown seconds

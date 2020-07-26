@@ -146,7 +146,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a09432e1e0c58ef4e87ffe3c3e834efb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shootingRange: 15
+  shootingRange: 9
   moveSpeed: 3
   patrol: []
   actionCooldown: 1
@@ -213,7 +213,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: -0.12002919, y: -0.0011242509}
   serializedVersion: 2
-  m_Radius: 0.62003446
+  m_Radius: 0.9200345
 --- !u!1001 &1656878002592500885
 PrefabInstance:
   m_ObjectHideFlags: 0
