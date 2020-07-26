@@ -11,7 +11,8 @@ public class BulletBehaviour : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D col) {
         // Explosion
-        GameObject explosion = Instantiate(burstEffect, transform.position, transform.rotation);
+        
+        GameObject explosion = Instantiate(burstEffect, col.GetContact(0).point, transform.rotation);
         ParticleSystem parts = explosion.GetComponentInChildren<ParticleSystem>();
 
         // Object cleanup
