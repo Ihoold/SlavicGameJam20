@@ -18,6 +18,7 @@ public class SoundManagerScript : MonoBehaviour
         firstAid = Resources.Load<AudioClip>("FirstAid");
 
         audioSource = GetComponent<AudioSource> ();
+        audioSource.volume = PlayerPrefs.GetFloat("Volume", 1f);
     }
 
     void Update()
@@ -44,7 +45,7 @@ public class SoundManagerScript : MonoBehaviour
             case "AutoGun":
                 audioSource.PlayOneShot(enemyAuto);
                 break;
-                
+
             case "FirstAid":
                 audioSource.PlayOneShot(firstAid);
                 break;
